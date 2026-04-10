@@ -22,3 +22,42 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# =========================
+# Backend (Spring Boot)
+# =========================
+/backend/build/
+.gradle/
+*.log
+*.class
+*.jar
+*.war
+
+# =========================
+# Frontend (React)
+# =========================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Docker
+# =========================
+*.pid
+*.seed
+
